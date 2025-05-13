@@ -15,5 +15,8 @@ A web app that lets you create digital paper strip choices for fun and easy deci
 
 ## Roadmap
 
+-   [x] Finish v1
 -   [ ] Draggable strip inputs
 -   [ ] Add confetti to clicked strip
+-   [ ] Change favicon
+-   [ ] Add meta tags for better SEO
