@@ -1,17 +1,15 @@
 import { addToast } from "@heroui/react";
 import { useState } from "react";
 
-export interface Strip {
-	id: number;
-	value: string;
-	isPressed: boolean;
-}
+const initStrips = [
+	{ id: 1, value: "", isPressed: false },
+	{ id: 2, value: "", isPressed: false },
+];
+
+export type Strip = (typeof initStrips)[number];
 
 export const useStrips = (onOpen: () => void) => {
-	const [strips, setStrips] = useState([
-		{ id: 1, value: "", isPressed: false },
-		{ id: 2, value: "", isPressed: false },
-	]);
+	const [strips, setStrips] = useState(initStrips);
 
 	const addStrip = () => {
 		const lastStrip = strips.at(-1);

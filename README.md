@@ -1,6 +1,6 @@
 # Pick A Strip
 
-A web app that lets you create digital paper strip choices for fun and easy decision-making.
+A simple way to let friends pick a random strip and make spontaneous decisions.
 
 ## Features
 
@@ -16,7 +16,7 @@ A web app that lets you create digital paper strip choices for fun and easy deci
 ## Roadmap
 
 -   [x] Finish v1
+-   [x] Add meta tags for better SEO
+-   [x] Change favicon
 -   [ ] Draggable strip inputs
 -   [ ] Add confetti to clicked strip
--   [ ] Change favicon
--   [ ] Add meta tags for better SEO
